@@ -3,7 +3,9 @@
 update_data.py — Regenerate index.html from fresh Scopus exports.
 
 Usage:
-    python update_data.py
+    python update_data.py             # rebuild from fresh Scopus CSVs in data/
+    python update_data.py --rebuild   # re-apply template.html to the data already
+                                      # in index.html (after design changes; no CSVs needed)
 
 Input files expected in data/:
     fucci2a.csv       Scopus export for Mort et al. 2014 (Cell Cycle)
@@ -11,9 +13,10 @@ Input files expected in data/:
     multistage.csv    Scopus export for Yates, Ford & Mort 2017 (Bull Math Biol)
 
 Optional (to preserve manual mouse-use verification):
-    data/verification.csv   Previously exported verified paper list
-                            (must contain columns: doi, verification_status,
-                             verification_note, verification_category)
+    data/verification.csv   Manual verification table (columns: source, doi,
+                            verification_status, verification_note,
+                            verification_category). `source` is fucci2a /
+                            arl13b / markov; if absent, rows match on DOI alone.
 
 Output:
     index.html        Updated interactive network (GDPR-safe, no distribution data)
@@ -44,7 +47,7 @@ from pathlib import Path
 try:
     import pandas as pd
 except ImportError:
-    sys.exit("pandas is required: pip install pandas")
+    pd = None  # only needed when parsing CSVs; --rebuild works without it
 
 # ---------------------------------------------------------------------------
 # Config
@@ -77,7 +80,6 @@ JOURNAL_IF = {
     "science": 44.7,
     "cell": 45.5,
     "nature communications": 15.7,
-    "nature communications ": 15.7,
     "nature cell biology": 16.6,
     "nature reviews genetics": 41.4,
     "nature reviews nephrology": 33.3,
@@ -90,7 +92,6 @@ JOURNAL_IF = {
     "circulation research": 16.2,
     "journal of clinical investigation": 13.3,
     "science advances": 11.7,
-    "science advances ": 11.7,
     "science translational medicine": 15.8,
     "neuron": 14.0,
     "blood": 20.3,
@@ -186,7 +187,6 @@ FUNDER_PATTERNS = [
     (r"royal society", "Royal Society (UK)"),
     (r"academy of medical sciences", "Academy of Medical Sciences (UK)"),
     (r"\briken\b", "RIKEN (Japan)"),
-    (r"howard hughes", "HHMI (USA)"),
 ]
 
 def classify_funders(text):
@@ -284,22 +284,27 @@ def merge_verification(papers, csv_path):
         print(f"  WARNING: {csv_path} missing columns {required - set(vdf.columns)} — skipping merge")
         return papers
 
+    # A paper citing two source papers can have a different status under each,
+    # so match on (source, doi) when the file has a source column.
+    by_source = "source" in vdf.columns
     lookup = {}
-    for _, row in vdf.iterrows():
+    for _, row in vdf.fillna("").iterrows():
         doi = str(row.get("doi", "") or "").strip().lower()
         if doi:
-            lookup[doi] = {
+            k = (str(row["source"]).strip(), doi) if by_source else doi
+            lookup[k] = {
                 "verification_status":   str(row.get("verification_status", "unclassified") or "unclassified"),
                 "verification_note":     str(row.get("verification_note", "") or ""),
                 "verification_category": str(row.get("verification_category", "") or ""),
             }
 
     merged = 0
-    for recs in papers.values():
+    for source, recs in papers.items():
         for r in recs:
             doi = r.get("doi", "").strip().lower()
-            if doi in lookup:
-                r.update(lookup[doi])
+            k = (source, doi) if by_source else doi
+            if doi and k in lookup:
+                r.update(lookup[k])
                 merged += 1
 
     print(f"  Merged verification status for {merged} papers from {csv_path}")
@@ -309,7 +314,38 @@ def merge_verification(papers, csv_path):
 # Main
 # ---------------------------------------------------------------------------
 
+def rebuild_from_index():
+    """Re-apply template.html to the data already embedded in index.html.
+
+    Use after editing template.html when the Scopus CSVs aren't to hand. The data,
+    including manual verification statuses, is carried over byte-for-byte.
+    """
+    if not OUTPUT.exists():
+        sys.exit(f"{OUTPUT} not found — nothing to rebuild from.")
+    if not TEMPLATE.exists():
+        sys.exit(f"Missing {TEMPLATE} — should contain a __DATA__ placeholder.")
+    current = OUTPUT.read_text(encoding="utf-8")
+    m = re.search(r'<script id="paperData" type="application/json">(.*?)</script>', current, re.S)
+    if not m:
+        sys.exit(f"Couldn't find the paperData block in {OUTPUT}.")
+    data_json = m.group(1)
+    papers = json.loads(data_json.replace("<\\/script", "</script"))  # sanity check only
+    template = TEMPLATE.read_text(encoding="utf-8")
+    if template.count("__DATA__") != 1:
+        sys.exit(f"{TEMPLATE} must contain exactly one __DATA__ placeholder.")
+    html = template.replace("__DATA__", data_json)
+    OUTPUT.write_text(html, encoding="utf-8")
+    n = sum(len(v) for v in papers.values())
+    print(f"Rebuilt {OUTPUT} from {TEMPLATE} with the existing data ({n} papers, {len(html)//1024} KB)")
+
+
 def main():
+    if "--rebuild" in sys.argv[1:]:
+        rebuild_from_index()
+        return
+
+    if pd is None:
+        sys.exit("pandas is required: pip install pandas")
     missing = [p for p in SOURCE_FILES.values() if not p.exists()]
     if missing:
         sys.exit(

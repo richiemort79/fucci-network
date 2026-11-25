@@ -1,0 +1,245 @@
+source,doi,verification_status,verification_note,verification_category,title
+fucci2a,10.1016/j.stem.2025.10.008,confirmed_mouse_user,,Cardiac,Injury-induced Clusterin+ cardiomyocytes suppress inflammation and promote regeneration in neonatal and adult hearts by reprogramming macrophages
+fucci2a,10.1007/s10456-024-09920-0,confirmed_mouse_user,,Vascular,Differential endothelial cell cycle status in postnatal retinal vessels revealed using a novel PIP-FUCCI reporter and zonation analysis
+fucci2a,10.1002/cncr.30684,unclassified,,,Genetically engineered mouse models of melanoma
+fucci2a,10.1016/j.molcel.2021.02.032,confirmed_mouse_user,,Stem cells,H3K27ac bookmarking promotes rapid post-mitotic activation of the pluripotent stem cell program without impacting 3D chromatin reorganization
+fucci2a,10.1101/cshperspect.a041383,unclassified,,,Monitoring the Cell Cycle of Tumor Cells in Mouse Models of Human Cancer
+fucci2a,10.3389/fcell.2025.1702230,unclassified,,,A concise guide to fluorescent cell cycle reporters for live-cell imaging
+fucci2a,10.7554/eLife.51381,confirmed_mouse_user,,Neuroscience,A stochastic framework of neurogenesis underlies the assembly of neocortical cytoarchitecture
+fucci2a,10.1042/BST20211131,unclassified,,,CDK activity sensors: genetically encoded ratiometric biosensors for live analysis of the cell cycle
+fucci2a,10.1016/j.devcel.2018.11.032,confirmed_mouse_user,,Skin/hair,Single-Cell Analysis Reveals a Hair Follicle Dermal Niche Molecular Differentiation Trajectory that Begins Prior to Morphogenesis
+fucci2a,10.1111/pcmr.12375,unclassified,,,Maintenance of distinct melanocyte populations in the interfollicular epidermis
+fucci2a,10.26508/lsa.202403067,unclassified,,,Predicting cell cycle stage from 3D single-cell nuclear-stained images
+fucci2a,10.1161/CIRCRESAHA.120.318277,confirmed_mouse_user,,Cardiac,Loss of Endogenously Cycling Adult Cardiomyocytes Worsens Myocardial Function
+fucci2a,10.1201/9781315121017,unclassified,,,Illuminating the cycle of life
+fucci2a,10.1080/15384101.2020.1838779,needs_verification,Uses Fucci — which variant?,,Intravital imaging reveals cell cycle-dependent myogenic cell migration during muscle regeneration
+fucci2a,10.1038/s41467-025-66446-9,confirmed_mouse_user,,Epithelial,Lifting regenerative barriers promotes epithelial cell fate plasticity supporting lineage conversion
+fucci2a,10.3389/fcell.2022.983097,confirmed_mouse_user,,Lymphoma/cancer,Lrig1 regulates the balance between proliferation and quiescence in glioblastoma stem cells
+fucci2a,10.1186/s13073-018-0589-3,confirmed_mouse_user,,Immunology/haem.,Genome-wide analyses reveal the IRE1a-XBP1 pathway promotes T helper cell differentiation by resolving secretory stress and accelerating proliferation 
+fucci2a,10.1016/j.kint.2021.08.026,confirmed_mouse_user,,Kidney,Effect of disease progression on the podocyte cell cycle in Alport Syndrome
+fucci2a,10.1038/s41467-018-04527-8,confirmed_mouse_user,,Intestinal,Composite regulation of ERK activity dynamics underlying tumour-specific traits in the intestine
+fucci2a,10.7554/eLife.73998,confirmed_mouse_user,,Cell biology,Integrative analysis of scRNA-seq and scATAC-seq revealed transit-amplifying thymic epithelial cells expressing autoimmune regulator
+fucci2a,10.1158/0008-5472.CAN-20-1518,confirmed_mouse_user,,Lymphoma/cancer,Modeling High-Grade Serous Ovarian Carcinoma Using a Combination of in Vivo Fallopian Tube Electroporation and CRISPR-Cas9–Mediated Genome Editing
+fucci2a,10.1103/PhysRevE.111.014419,unclassified,,,Modeling adhesion in stochastic and mean-field models of cell migration
+fucci2a,10.1016/j.ydbio.2016.04.001,unclassified,,,White paper on guidelines concerning enteric nervous system stem cell therapy for enteric neuropathies
+fucci2a,10.1126/sciadv.ado9970,confirmed_mouse_user,,Vascular,cSTAR analysis identifies endothelial cell cycle as a key regulator of flow-dependent artery remodeling
+fucci2a,10.1038/s41467-022-33110-5,confirmed_mouse_user,,Kidney,Tubular cell polyploidy protects from lethal acute kidney injury but promotes consequent chronic kidney disease
+fucci2a,10.1016/j.devcel.2020.09.001,confirmed_mouse_user,,Stem cells,Abscission Couples Cell Division to Embryonic Stem Cell Fate
+fucci2a,10.3390/ijms19051469,unclassified,,,Spatiotemporal labeling of melanocytes in mice
+fucci2a,10.1016/j.jtbi.2018.09.010,unclassified,,,The invasion speed of cell migration models with realistic cell cycle time distributions
+fucci2a,10.1016/j.jneumeth.2021.109127,unclassified,,,Tracking the fate and migration of cells in live animals with cell-cycle indicators and photoconvertible proteins
+fucci2a,10.1016/bs.ctdb.2015.10.001,unclassified,,,Cycling in the Cell Fate Landscape
+fucci2a,10.1103/PhysRevE.107.044402,unclassified,,,Swapping in lattice-based cell migration models
+fucci2a,10.1038/s41586-018-0139-6,confirmed_mouse_user,,Neuroscience,Pyramidal cell regulation of interneuron survival sculpts cortical networks /631/378/2571/1696 /631/378/1934 /631/136/334/1874/345 /631/80/82/23 /631/378/1689/1373 /13/1 /13/2 /13/51 /14/19 /14/69 /38/77 /64/60 /96/63 article
+fucci2a,10.1016/j.celrep.2024.114873,confirmed_mouse_user,,Neuroscience,Heterogeneity in oligodendrocyte precursor cell proliferation is dynamic and driven by passive bioelectrical properties
+fucci2a,10.1016/j.semnephrol.2017.09.004,unclassified,,,Advances in Renal Cell Imaging
+fucci2a,10.2337/db20-0290,needs_verification,Mouse model — likely R26Fucci2aR but confirm,,Generation and characterization of a novel mouse model that allows spatiotemporal quantification of pancreatic β-cell proliferation
+fucci2a,10.1038/s41598-018-37507-5,unclassified,,,G9a-dependent histone methylation can be induced in G1 phase of cell cycle
+fucci2a,10.1038/s41598-024-52085-5,unclassified,,,"Cell cycle specific, differentially tagged ribosomal proteins to measure phase specific transcriptomes from asynchronously cycling cells"
+fucci2a,10.1152/ajprenal.00354.2018,needs_verification,Used mouse as demo or just protocol?,,Novel kidney dissociation protocol and image-based flow cytometry facilitate improved analysis of injured proximal tubules
+fucci2a,10.1007/s10456-021-09785-7,confirmed_mouse_user,,Vascular,Vascular endothelial cell specification in health and disease
+fucci2a,10.1371/journal.pone.0188772,needs_verification,Fucci — which variant? Check methods,,Comparative cell cycle transcriptomics reveals synchronization of developmental transcription factor networks in cancer cells
+fucci2a,10.1126/sciadv.adq5842,confirmed_mouse_user,,Neuroscience,Activity-dependent regulation of microglia numbers by pyramidal cells during development shape cortical functions
+fucci2a,10.1681/ASN.2022050598,confirmed_mouse_user,,Kidney,Cell Cycle and Senescence Regulation by Podocyte Histone Deacetylase 1 and 2
+fucci2a,10.1083/jcb.202209005,confirmed_mouse_user,,Mammary,Spatially coordinated cell cycle activity and motility govern bifurcation of mammary branches
+fucci2a,10.1371/journal.pone.0347835,confirmed_mouse_user,,Kidney,Reappraisal of profibrotic phenotype and cell-cycle state of renal tubular epithelium after ischemia–reperfusion injury
+fucci2a,10.1242/dev.202179,confirmed_mouse_user,,Mammary,Exploring the principles of embryonic mammary gland branching morphogenesis
+fucci2a,10.1186/s12943-025-02499-0,confirmed_mouse_user,,Lymphoma/cancer,"Decoding cancer dormancy: integrative genomic, phenotypic and live-cell imaging analysis to reveal the hidden cancer cell reservoir"
+fucci2a,10.1016/j.bpj.2021.04.035,unclassified,,,Imaging developmental cell cycles
+fucci2a,10.1016/j.semcdb.2025.103611,unclassified,,,"Artery regeneration: Molecules, mechanisms and impact on organ function"
+fucci2a,10.1016/j.devcel.2024.09.003,confirmed_mouse_user,,Glioblastoma (own lab),An ILK/STAT3 pathway controls glioblastoma stem cell plasticity
+fucci2a,10.1016/j.molcel.2017.10.001,needs_verification,Resource/methods paper — does it use the mouse?,,Genetically Encoded Tools for Optical Dissection of the Mammalian Cell Cycle
+fucci2a,10.3791/66020,unclassified,,,Using Ex Vivo Live Imaging to Investigate Cell Divisions and Movements During Mouse Dental Renewal
+fucci2a,10.1007/s10456-025-10000-0,confirmed_mouse_user,,Vascular,Zonal endothelial cell heterogeneity underlies murine renal vascular development
+fucci2a,10.1038/s41556-019-0402-6,confirmed_mouse_user,,Gastric/liver (own lab),Epigenetic remodelling licences adult cholangiocytes for organoid formation and liver regeneration
+fucci2a,10.1038/s41467-024-49198-w,confirmed_mouse_user,,Neuroscience,Protein translation rate determines neocortical neuron fate
+fucci2a,10.1126/sciadv.adl6153,confirmed_mouse_user,,Immunology/haem.,Cell cycle–dependent centrosome clustering precedes proplatelet formation
+fucci2a,10.1038/s41467-018-03753-4,confirmed_mouse_user,,Kidney,Endocycle-related tubular cell hypertrophy and progenitor proliferation recover renal function after acute kidney injury
+fucci2a,10.3390/jcdd9030073,unclassified,,,In Vivo Methods to Monitor Cardiomyocyte Proliferation
+fucci2a,10.1007/s11538-017-0356-4,unclassified,,,A Multi-stage Representation of Cell Proliferation as a Markov Process
+fucci2a,10.1111/joa.13094,needs_verification,Mouse brain — which Fucci variant?,,Multiple steps characterise ventricular layer attrition to form the ependymal cell lining of the adult mouse spinal cord central canal
+fucci2a,10.1016/j.ccell.2020.04.004,confirmed_mouse_user,,Lymphoma/cancer,Mutant EZH2 Induces a Pre-malignant Lymphoma Niche by Reprogramming the Immune Response
+fucci2a,10.1172/jci.insight.197761,confirmed_mouse_user,,Muscle,Hypothyroidism impairs skeletal muscle regeneration after injury by altering myogenic and nonmyogenic pathways
+fucci2a,10.1038/s41598-018-35642-7,needs_verification,Cell line Fucci or mouse? Check methods,,Concurrent live imaging of DNA double-strand break repair and cell-cycle progression by CRISPR/Cas9-mediated knock-in of a tricistronic vector
+fucci2a,10.1038/s42003-025-08012-z,confirmed_mouse_user,,Cardiac,Intronic RNAscope probes enable precise identification of cardiomyocyte nuclei and cell cycle activity
+fucci2a,10.1016/j.cell.2020.05.049,confirmed_mouse_user,,Lymphoma/cancer,TBL1XR1 Mutations Drive Extranodal Lymphoma by Inducing a Pro-tumorigenic Memory Fate
+fucci2a,10.1172/jci.insight.158754,confirmed_mouse_user,,Kidney,Blocking cell cycle progression through CDK4/6 protects against chronic kidney disease
+fucci2a,10.1038/srep23885,unclassified,,,Tracking of Normal and Malignant Progenitor Cell Cycle Transit in a Defined Niche
+fucci2a,10.3390/v12121467,unclassified,,,Enhanced cell-based detection of parvovirus b19v infectious units according to cell cycle status
+fucci2a,10.1161/CIRCRESAHA.121.320005,confirmed_mouse_user,,Cardiac,Inhibition of DYRK1a Enhances Cardiomyocyte Cycling after Myocardial Infarction
+fucci2a,10.3390/ijms222011093,confirmed_mouse_user,,Kidney,Tubular cell cycle response upon AKI: Revising old and new paradigms to identify novel targets for CKD prevention
+fucci2a,10.1126/scitranslmed.abg3277,confirmed_mouse_user,,Kidney,Differentiation of crescent-forming kidney progenitor cells into podocytes attenuates severe glomerulonephritis in mice
+fucci2a,10.1152/ajpcell.00081.2023,needs_verification,Duplicate of entry 8 above — same paper,,Polyploid tubular cells initiate a TGF-β1 controlled loop that sustains polyploidization and fibrosis after acute kidney injury
+fucci2a,10.1247/csf.23028,needs_verification,Tool development paper — does it validate with R26Fucci2aR?,,Two coral fluorescent proteins of distinct colors for sharp visualization of cell-cycle progression
+fucci2a,10.1016/j.celrep.2021.109362,confirmed_mouse_user,,Neuroscience,Nutritional regulation of oligodendrocyte differentiation regulates perineuronal net remodeling in the median eminence
+fucci2a,10.1038/s41467-021-24157-x,confirmed_mouse_user,,Muscle,Unexpected contribution of fibroblasts to muscle lineage as a mechanism for limb muscle patterning
+fucci2a,10.1007/978-1-0716-1538-6_21,unclassified,,,Live Imaging and Analysis of Cilia and Cell Cycle Dynamics with the Arl13bCerulean-Fucci2a Biosensor and Fucci Tools
+fucci2a,10.3390/cancers14215250,unclassified,,,Evaluation of the Heat Shock Protein 90 Inhibitor Ganetespib as a Sensitizer to Hyperthermia-Based Cancer Treatments
+fucci2a,10.1016/j.stem.2019.07.008,confirmed_mouse_user,,Gastric/liver (own lab),Defining the Identity and Dynamics of Adult Gastric Isthmus Stem Cells
+fucci2a,10.1016/j.neuron.2018.12.020,confirmed_mouse_user,,Neuroscience,Oligodendrocyte Progenitor Cells Become Regionally Diverse and Heterogeneous with Age
+fucci2a,10.1172/JCI171237,confirmed_mouse_user,,Cell biology,Profilin1 is required for prevention of mitotic catastrophe in murine and human glomerular diseases
+fucci2a,10.1242/dev.200226,confirmed_mouse_user,,Stem cells,SyNPL: Synthetic Notch pluripotent cell lines to monitor and manipulate cell interactions in vitro and in vivo
+fucci2a,10.1083/jcb.201708023,confirmed_mouse_user,,Intestinal,Lgr5+ intestinal stem cells reside in an unlicensed G1 phase
+fucci2a,10.1007/s10911-021-09498-z,unclassified,,,Twelfth Annual ENBDC Workshop: Methods in Mammary Gland Biology and Breast Cancer
+fucci2a,10.7554/eLife.36468,confirmed_mouse_user,,Skin/hair,"Hair follicle dermal condensation forms via FGF20 primed cell cycle exit, cell motility, and aggregation"
+fucci2a,10.1016/j.devcel.2018.10.027,unclassified,,,A Cell/Cilia Cycle Biosensor for Single-Cell Kinetics Reveals Persistence of Cilia after G1/S Transition Is a General Property in Cells and Mice
+fucci2a,10.3389/fphys.2020.01084,unclassified,,,Genetic Tools to Study Cardiovascular Biology
+fucci2a,10.1158/2159-8290.CD-21-1514,confirmed_mouse_user,,Lymphoma/cancer,SETD2 Haploinsufficiency Enhances Germinal Center–Associated AICDA Somatic Hypermutation to Drive B-cell Lymphomagenesis
+fucci2a,10.1038/s41586-026-10157-8,confirmed_mouse_user,,Lymphoma/cancer,Precancerous niche remodelling dictates nascent tumour persistence
+fucci2a,10.1186/s12870-022-03735-1,unclassified,,,Development of dual reporter vector system for estimating translational activity of regulatory elements
+fucci2a,10.1038/s41467-021-22813-w,confirmed_mouse_user,,Neuroscience,LRIG1 is a gatekeeper to exit from quiescence in adult neural stem cells
+fucci2a,10.1038/s41467-020-18966-9,confirmed_mouse_user,,Cell biology,Altered G1 signaling order and commitment point in cells proliferating without CDK4/6 activity
+fucci2a,10.1038/s41594-024-01422-3,unclassified,,,Understanding ubiquitination in neurodevelopment by integrating insights across space and time
+fucci2a,10.1038/labinvest.2017.13,unclassified,,,Blue intensity matters for cell cycle profiling in fluorescence DAPI-stained images
+fucci2a,10.1002/wdev.189,unclassified,,,FUCCI sensors: Powerful new tools for analysis of cell proliferation
+fucci2a,10.1093/cvr/cvaf264,confirmed_mouse_user,,Cardiac,Ets1-regulated endothelial-secreted factors promote compact myocardial growth and contribute to the pathogenesis of ventricular non-compaction
+fucci2a,10.1016/j.semcancer.2021.04.021,unclassified,,,"Slow-cycling (dormant) cancer cells in therapy resistance, cancer relapse and metastasis"
+fucci2a,10.1093/pnasnexus/pgaf370,needs_verification,Uses mouse as imaging specimen?,,High content 3D imaging by dual-view oblique plane microscopy
+fucci2a,10.1038/ncomms10288,unclassified,,,Reconciling diverse mammalian pigmentation patterns with a fundamental mathematical model
+fucci2a,10.15252/msb.20178174,confirmed_mouse_user,,Skin/hair,Fibroblast state switching orchestrates dermal maturation and wound healing
+fucci2a,10.3389/fcvm.2022.840147,confirmed_mouse_user,,Cardiac,FUCCI-Based Live Imaging Platform Reveals Cell Cycle Dynamics and Identifies Pro-proliferative Compounds in Human iPSC-Derived Cardiomyocytes
+fucci2a,10.1016/j.celrep.2022.111037,unclassified,,,Serotonergic regulation of bipolar cell survival in the developing cerebral cortex
+fucci2a,10.3389/fphys.2020.00818,unclassified,,,Live Tissue Imaging Sheds Light on Cell Level Events During Ectodermal Organ Development
+fucci2a,10.1038/s41467-022-35070-2,confirmed_mouse_user,,Cardiac,DOT1L regulates chamber-specific transcriptional networks during cardiogenesis and mediates postnatal cell cycle withdrawal
+fucci2a,10.1039/d0an02381g,needs_verification,Chemical imaging — unlikely to use the mouse,,Identifying subpopulations in multicellular systems by quantitative chemical imaging using label-free hyperspectral CARS microscopy
+fucci2a,10.3389/fcell.2018.00057,unclassified,,,Cycling to meet fate: Connecting pluripotency to the cell cycle
+fucci2a,10.1080/15384101.2015.1006549,unclassified,,,Fucci2a mouse upgrades live cell cycle imaging
+fucci2a,10.1038/s41556-021-00679-w,confirmed_mouse_user,,Epithelial,A biomechanical switch regulates the transition towards homeostasis in oesophageal epithelium
+fucci2a,10.1016/j.ydbio.2019.03.016,unclassified,,,Concerted cell divisions in embryonic visceral endoderm guide anterior visceral endoderm migration
+fucci2a,10.1161/CIRCRESAHA.115.307697,confirmed_mouse_user,,Cardiac,Tissue-Specific Cell Cycle Indicator Reveals Unexpected Findings for Cardiac Myocyte Proliferation
+arl13b,10.1016/j.cub.2020.05.004,not_assessed,,,Transient Primary Cilia Mediate Robust Hedgehog Pathway-Dependent Cell Cycle Control
+arl13b,10.1242/jcs.260454,not_assessed,,,The cilium–centrosome axis in coupling cell cycle exit and cell fate
+arl13b,10.15252/embj.2023113891,not_assessed,,,Emerging principles of primary cilia dynamics in controlling tissue organization and function
+arl13b,10.1111/joa.13094,not_assessed,,,Multiple steps characterise ventricular layer attrition to form the ependymal cell lining of the adult mouse spinal cord central canal
+arl13b,10.3389/fcell.2025.1702230,not_assessed,,,A concise guide to fluorescent cell cycle reporters for live-cell imaging
+arl13b,10.1016/j.tcb.2023.05.005,not_assessed,,,Regulation of the length of neuronal primary cilia and its potential effects on signalling
+arl13b,10.3389/fphar.2022.1062119,not_assessed,,,Primary cilia: The central role in the electromagnetic field induced bone healing
+arl13b,10.1371/journal.pbio.3000203,not_assessed,,,Chemokine signaling links cell-cycle progression and cilia formation for left-right symmetry breaking
+arl13b,10.52601/bpr.2021.210005,not_assessed,,,Live-cell fluorescence imaging of ciliary dynamics
+arl13b,10.3390/cells10112977,not_assessed,,,Insights into the regulation of ciliary disassembly
+arl13b,10.1002/mrd.23650,not_assessed,,,Structures and functions of cilia during vertebrate embryo development
+arl13b,10.1016/j.celrep.2022.111642,not_assessed,,,Α γ-tubulin complex-dependent pathway suppresses ciliogenesis by promoting cilia disassembly
+arl13b,10.1038/s41581-019-0116-9,not_assessed,,,"Cellular signalling by primary cilia in development, organ function and disease"
+arl13b,10.1242/jcs.264159,not_assessed,,,Strategies for multimodal spatiotemporal profiling of phosphorylation in cilia biology
+arl13b,10.1242/jcs.249789,not_assessed,,,Differentiation of ciliated human midbrain-derived LUHMES neurons
+arl13b,10.1016/B978-0-12-822508-0.00010-1,not_assessed,,,Deciliation
+arl13b,10.3390/cells10061445,not_assessed,,,Oncogenic fgfr fusions produce centrosome and cilia defects by ectopic signaling
+arl13b,10.1152/ajpcell.00188.2020,not_assessed,,,ARF family GTPases with links to cilia
+arl13b,10.1038/s41467-021-26764-0,not_assessed,,,Generation of functional ciliated cholangiocytes from human pluripotent stem cells
+arl13b,10.3892/ol.2022.13334,not_assessed,,,Abnormal accumulation of OFD1 in endometrial cancer with poor prognosis inhibits ciliogenesis
+arl13b,10.1073/pnas.2018740118,not_assessed,,,A complex of distal appendage-associated kinases linked to human disease regulates ciliary trafficking and stability
+arl13b,10.1146/annurev-biochem-013118-111153,not_assessed,,,Mechanism and Regulation of Centriole and Cilium Biogenesis
+arl13b,10.1007/978-1-0716-1538-6_21,not_assessed,,,Live Imaging and Analysis of Cilia and Cell Cycle Dynamics with the Arl13bCerulean-Fucci2a Biosensor and Fucci Tools
+arl13b,10.1242/jcs.263414,not_assessed,,,ImmunoCellCycle-ID - a high-precision immunofluorescence-based method for cell cycle identification
+arl13b,10.1111/gtc.12722,not_assessed,,,Ciliogenesis-coupled accumulation of IFT-B proteins in a novel cytoplasmic compartment
+arl13b,10.1016/j.bbalip.2025.159603,not_assessed,,,The influence of IMPDH activity on ciliogenesis and adipogenesis of 3T3-L1 cells while undergoing differentiation
+arl13b,10.1158/0008-5472.CAN-20-1518,not_assessed,,,Modeling High-Grade Serous Ovarian Carcinoma Using a Combination of in Vivo Fallopian Tube Electroporation and CRISPR-Cas9–Mediated Genome Editing
+arl13b,10.1111/febs.15473,not_assessed,,,"Microtubule-associated proteins and emerging links to primary cilium structure, assembly, maintenance, and disassembly"
+arl13b,10.1523/JNEUROSCI.1503-19.2019,not_assessed,,,Dynamic changes in ultrastructure of the primary cilium in migrating neuroblasts in the postnatal brain
+arl13b,10.1038/s41598-022-05918-0,not_assessed,,,Altered mechanotransduction in adolescent idiopathic scoliosis osteoblasts: an exploratory in vitro study
+arl13b,10.1242/jcs.263965,not_assessed,,,Primary cilia shape postnatal astrocyte development through Sonic Hedgehog signaling
+arl13b,10.1083/jcb.202404038,not_assessed,,,Permanent deconstruction of intracellular primary cilia in differentiating granule cell neurons
+arl13b,10.1242/dev.195552,not_assessed,,,Hedgehog signaling and the primary cilium: Implications for spatial and temporal constraints on signaling
+arl13b,10.1186/s12860-025-00547-7,not_assessed,,,In vivo genetic labeling of primary cilia in developing astrocytes
+arl13b,10.1080/13543784.2021.1882993,not_assessed,,,Developing models of cholangiocarcinoma to close the translational gap in cancer research
+arl13b,10.1083/JCB.201907136,not_assessed,,,Nek2 kinase displaces distal appendages from the mother centriole prior to mitosis
+arl13b,10.1016/j.jhep.2024.06.002,not_assessed,,,"Primary cilia as a targetable node between biliary injury, senescence and regeneration in liver transplantation"
+arl13b,10.1016/j.cell.2019.11.005,not_assessed,,,Omega-3 Fatty Acids Activate Ciliary FFAR4 to Control Adipogenesis
+arl13b,10.1038/s41576-023-00587-9,not_assessed,,,Primary cilia as dynamic and diverse signalling hubs in development and disease
+arl13b,10.1016/j.ydbio.2020.07.008,not_assessed,,,Mosaic Analysis with Double Markers reveals IGF1R function in granule cell progenitors during cerebellar development
+arl13b,10.1002/cbin.11667,not_assessed,,,Centriole is the pivot co-ordinating dynamic signaling for cell proliferation and organization during early development in the vertebrates
+arl13b,10.1002/advs.202301058,not_assessed,,,DeCOOC Deconvoluted Hi-C Map Characterizes the Chromatin Architecture of Cells in Physiologically Distinctive Tissues
+arl13b,10.1073/pnas.2005894118,not_assessed,,,Pathogenic LRRK2 regulates ciliation probability upstream of tau tubulin kinase 2 via Rab10 and RILPL1 proteins
+arl13b,10.1002/cm.22012,not_assessed,,,Phosphorylation at the Helm: Kinase-Mediated Regulation of Primary Cilia Assembly and Disassembly
+arl13b,10.1242/JCS.230441,not_assessed,,,The conserved ancestral signaling pathway from cilium to nucleus
+arl13b,10.1091/mbc.E22-08-0373,not_assessed,,,TTBK2 controls cilium stability by regulating distinct modules of centrosomal proteins
+arl13b,10.3390/ijms23031749,not_assessed,,,PCD Genes—From Patients to Model Organisms and Back to Humans
+arl13b,10.1186/s13578-025-01403-z,not_assessed,,,Cilia at the crossroad: convergence of regulatory mechanisms to govern cilia dynamics during cell signaling and the cell cycle
+arl13b,10.21037/pm-21-107,not_assessed,,,Primary cilia in the development of the cerebral cortex: a literature review
+arl13b,10.1016/bs.mcb.2022.09.010,not_assessed,,,Using mammary organoids to study cilia
+arl13b,10.1242/jcs.264009,not_assessed,,,ARL13B-Cerulean rescues Arl13b-null mouse from embryonic lethality and reveals a role for ARL13B in spermatogenesis
+arl13b,10.3390/cells8070701,not_assessed,,,The centrosome and the primary cilium: The Yin and Yang of a hybrid organelle
+arl13b,10.3389/fcell.2024.1418928,not_assessed,,,"Structure, function, and research progress of primary cilia in reproductive physiology and reproductive diseases"
+arl13b,10.3389/fncel.2019.00055,not_assessed,,,Emerging roles of primary cilia in glioma
+arl13b,10.3389/bjbs.2021.10221,not_assessed,,,Molecular Diagnostics of Ciliopathies and Insights Into Novel Developments in Diagnosing Rare Diseases
+arl13b,10.26508/lsa.202403000,not_assessed,,,Reversible and effective cell cycle synchronization method for studying stage-specific processes
+arl13b,10.3389/fphys.2021.769367,not_assessed,,,Primary Cilia Are Critical Regulators of White Adipose Tissue Expansion
+arl13b,10.1247/csf.24067,not_assessed,,,The role of primary cilia in myoblast proliferation and cell cycle regulation during myogenesis
+arl13b,10.1016/j.cellsig.2024.111402,not_assessed,,,mTOR potentiates senescent phenotypes and primary cilia formation after cisplatin-induced G2 arrest in retinal pigment epithelial cells
+arl13b,10.1016/bs.ctdb.2023.07.001,not_assessed,,,Functions of the primary cilium in the kidney and its connection with renal diseases
+arl13b,10.1016/j.semcdb.2019.12.005,not_assessed,,,Actin-based regulation of ciliogenesis – The long and the short of it
+arl13b,10.1016/j.tcb.2021.07.009,not_assessed,,,Primary ciliary signaling: links with the cell cycle
+arl13b,10.1186/s12964-025-02403-9,not_assessed,,,The primary cilium as a multifunctional organelle: emerging roles and unanswered questions
+arl13b,10.3389/fonc.2022.837589,not_assessed,,,Tumor Treating Fields Suppression of Ciliogenesis Enhances Temozolomide Toxicity
+arl13b,10.7554/ELIFE.65104,not_assessed,,,Nucleo-cytoplasmic shuttling of splicing factor srsf1 is required for development and cilia function
+arl13b,10.1002/bies.70060,not_assessed,,,Taking Down the Primary Cilium: Pathways for Disassembly in Differentiating Cells
+arl13b,10.1371/journal.pbio.3000381,not_assessed,,,Primary cilium loss in mammalian cells occurs predominantly by whole-cilium shedding
+arl13b,10.1016/j.bpj.2021.04.035,not_assessed,,,Imaging developmental cell cycles
+arl13b,10.3389/fnmol.2021.757646,not_assessed,,,TALPID3/KIAA0586 Regulates Multiple Aspects of Neuromuscular Patterning During Gastrointestinal Development in Animal Models and Human
+arl13b,10.3389/fcell.2021.623753,not_assessed,,,Primary Cilia Formation Does Not Rely on WNT/β-Catenin Signaling
+arl13b,10.1038/s41388-025-03416-x,not_assessed,,,Primary cilia and cancer: a tale of many faces
+markov,10.1038/s42005-024-01743-1,not_assessed,,,A size-dependent division strategy accounts for leukemia cell size heterogeneity
+markov,10.1103/PhysRevX.11.021032,not_assessed,,,Frequency Domain Analysis of Fluctuations of mRNA and Protein Copy Numbers within a Cell Lineage: Theory and Experimental Validation
+markov,10.1016/j.mbs.2022.108928,not_assessed,,,On predicting heterogeneity in nanoparticle dosage
+markov,10.1016/j.jtbi.2019.05.014,not_assessed,,,A stochastic model of adult neurogenesis coupling cell cycle progression and differentiation
+markov,10.46544/AMS.v26i2.11,not_assessed,,,Solving problems of the oil and gas sector using machine learning algorithms
+markov,10.1371/journal.pone.0331472,not_assessed,,,Estimation of discrete mixed Poisson-Erlang distribution with applications to medical data
+markov,10.1371/journal.pcbi.1013790,not_assessed,,,Probabilistic modeling of cell cycle dynamics in response to cell cycle targeting chemotherapy drugs to guide treatment strategies
+markov,10.1093/molbev/msag080,not_assessed,,,Age-dependent Phylodynamics with Application to Single-cell Lineage Trees
+markov,10.1103/PhysRevE.103.022409,not_assessed,,,Optimal transition paths of phenotypic switching in a non-Markovian self-regulation gene expression
+markov,10.1016/j.bpj.2024.05.003,not_assessed,,,Quantifying cell cycle regulation by tissue crowding
+markov,10.1038/s41598-018-32961-7,not_assessed,,,First passage events in biological systems with non-exponential inter-event times
+markov,10.1109/TMI.2025.3583148,not_assessed,,,Cell Tracking According to Biological Needs—Strong Mitosis-Aware Multi- Hypothesis Tracker With Aleatoric Uncertainty
+markov,10.1038/s41467-023-39122-z,not_assessed,,,Analysis and modeling of cancer drug responses using cell cycle phase-specific rate effects
+markov,10.1371/journal.pone.0242547,not_assessed,,,Asymmetry of nanoparticle inheritance upon cell division: Effect on the coefficient of variation
+markov,10.1371/journal.pcbi.1010574,not_assessed,,,Concentration fluctuations in growing and dividing cells: Insights into the emergence of concentration homeostasis
+markov,10.1007/s00411-020-00880-9,not_assessed,,,Modeling low-dose radiation-induced acute myeloid leukemia in male CBA/H mice
+markov,10.1038/s41598-022-14202-0,not_assessed,,,Counting generations in birth and death processes with competing Erlang and exponential waiting times
+markov,10.1088/1478-3975/abba85,not_assessed,,,Heterogeneity and 'memory' in stem cell populations
+markov,10.1093/bioinformatics/btaa279,not_assessed,,,An in silico model of LINE-1-mediated neoplastic evolution
+markov,10.1109/ISBI56570.2024.10635267,not_assessed,,,Robust Approximate Characterization of Single-Cell Heterogeneity in Microbial Growth
+markov,10.1038/s41467-020-14407-9,not_assessed,,,Estimating growth patterns and driver effects in tumor evolution from individual samples
+markov,10.1142/9789811216220_0005,not_assessed,,,Modeling tumor growth: A simple individual-based model and its analysis
+markov,10.3389/fbinf.2021.723337,not_assessed,,,Cyton2: A Model of Immune Cell Population Dynamics That Includes Familial Instructional Inheritance
+markov,10.1103/PhysRevE.111.014419,not_assessed,,,Modeling adhesion in stochastic and mean-field models of cell migration
+markov,10.1158/2767-9764.CRC-23-0257,not_assessed,,,Mathematical Modeling Identifies Optimum Palbociclib-fulvestrant Dose Administration Schedules for the Treatment of Patients with Estrogen Receptor-positive Breast Cancer
+markov,10.1016/j.physa.2025.130801,not_assessed,,,Dynamics of the adder model of cell division using master equation
+markov,10.15252/msb.20188604,not_assessed,,,"Evidence that the human cell cycle is a series of uncoupled, memoryless phases"
+markov,10.1016/bs.host.2018.06.002,not_assessed,,,Stochastic and Deterministic Modeling of Cell Migration
+markov,10.1007/s00285-019-01412-w,not_assessed,,,Generalizations of the ‘Linear Chain Trick’: incorporating more flexible dwell time distributions into mean field ODE models
+markov,10.1063/5.0203335,not_assessed,,,Stochastic distinguishability of Markovian trajectories
+markov,10.1103/PhysRevE.101.032403,not_assessed,,,"Exact solution of stochastic gene expression models with bursting, cell cycle and replication dynamics"
+markov,10.1098/rsif.2019.0382,not_assessed,,,Mathematical models incorporating a multi-stage cell cycle replicate normally-hidden inherent synchronization in cell proliferation
+markov,10.1038/s41540-024-00397-7,not_assessed,,,A comprehensive review of computational cell cycle models in guiding cancer treatment strategies
+markov,10.1098/rsos.230871,not_assessed,,,Fluctuations in tissue growth portray homeostasis as a critical state and long-time non-Markovian cell proliferation as Markovian
+markov,10.1007/s00028-020-00667-x,not_assessed,,,Stochastic branching at the edge: individual-based modeling of tumor cell proliferation
+markov,10.1103/PhysRevResearch.6.033320,not_assessed,,,Competition between transient oscillations and early stochasticity in exponentially growing populations
+markov,10.1126/sciadv.adg7668,not_assessed,,,Distribution modeling quantifies collective TH cell decision circuits in chronic inflammation
+markov,10.1016/j.jtbi.2018.09.010,not_assessed,,,The invasion speed of cell migration models with realistic cell cycle time distributions
+markov,10.1073/pnas.1910888117,not_assessed,,,Analytical distributions for detailed models of stochastic gene expression in eukaryotic cells
+markov,10.1109/ACIT49673.2020.9208874,not_assessed,,,Reduction of Server Load by Means of CMS Drupal
+markov,10.1007/978-3-032-00567-0_5,not_assessed,,,A Mathematical Model of Liver Regeneration
+markov,10.1002/ece3.10295,not_assessed,,,Solving the stochastic dynamics of population growth
+markov,10.1016/j.physa.2018.06.128,not_assessed,,,Stochastic models of cell invasion with fluorescent cell cycle indicators
+markov,10.1109/ACIT49673.2020.9208831,not_assessed,,,Generators of Some Kinds Random Erlang Numbers and Estimation of Their Complexity
+markov,10.1016/j.cjph.2020.09.011,not_assessed,,,Analytical results for a non-Markovian process of gene expression with positive and negative feedbacks
+markov,10.1371/journal.pone.0295578,not_assessed,,,Stochastic model of Alzheimer’s disease progression using two-state Markov chains
+markov,10.1016/j.isci.2021.102220,not_assessed,,,Cell size distribution of lineage data: analytic results and parameter inference
+markov,10.1016/j.bpj.2021.02.017,not_assessed,,,Synchronized oscillations in growing cell populations are explained by demographic noise
+markov,10.1007/s00285-021-01580-8,not_assessed,,,A novel mathematical model of heterogeneous cell proliferation
+markov,10.1016/j.bpj.2025.10.035,not_assessed,,,Unmasking complex kinetics in viral entry by inferring hypoexponential models
+markov,10.1016/B978-0-323-90471-1.00008-6,not_assessed,,,Nanoscaffolds and role of 3D-printed surgical dressings for wound healing application
+markov,10.1126/sciadv.abg3613,not_assessed,,,αβ/γδ T cell lineage outcome is regulated by intrathymic cell localization and environmental signals
+markov,10.1080/17513758.2021.1912418,not_assessed,,,Building mean field ODE models using the generalized linear chain trick & Markov chain theory
+markov,10.3389/fams.2023.1107441,not_assessed,,,The regime-conversion method: a hybrid technique for simulating well-mixed chemical reaction networks
+markov,10.1016/j.jtbi.2019.01.029,not_assessed,,,Neural crest migration with continuous cell states
+markov,10.1093/imammb/dqz008,not_assessed,,,A mathematical model of viral oncology as an immuno-oncology instigator
+markov,10.1103/PhysRevResearch.2.033121,not_assessed,,,"Unifying continuous, discrete, and hybrid susceptible-infected-recovered processes on networks"
+markov,10.1103/ysj3-gkrr,not_assessed,,,Cyclo-Stationary Distributions of mRNA and Protein Counts for Random Cell Division Times
+markov,10.1007/s42519-023-00327-6,not_assessed,,,On Characterization of the Exponential Distribution Via Hypoexponential Distributions
+markov,10.3390/en13071618,not_assessed,,,Deep q-network for optimal decision for top-coal caving
+markov,10.1098/rsif.2020.0360,not_assessed,,,Effects of cell cycle variability on lineage and population measurements of messenger RNA abundance
+markov,10.1098/rsif.2020.0221,not_assessed,,,Isolating the sources of heterogeneity in nano-engineered particle–cell interactions
+markov,10.1103/PhysRevE.105.064411,not_assessed,,,Equivalence framework for an age-structured multistage representation of the cell cycle
+markov,10.1007/s10616-018-0263-z,not_assessed,,,Proliferation characteristics of cells cultured under periodic versus static conditions
+markov,10.1007/s11117-019-00644-w,not_assessed,,,Positive semigroups and perturbations of boundary conditions

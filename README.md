@@ -19,27 +19,38 @@ Each node is an independent citing study. Click any node for details including a
 | Control | What it does |
 |---|---|
 | **Show network** | Filter to one source paper or show all three |
-| **Link layer** | Switch between institution, country, or collaborator links |
-| **Colour papers by** | Year / confirmed mouse use / journal impact factor |
-| **Period** | Filter to pre-2022 or post-2022 |
-| **Timeline** | Animate cumulative adoption from 2015 to present |
+| **Link layer** | Switch between institution, country, or recurring co-author links |
+| **Colour papers by** | Year / confirmed mouse use / journal impact factor > 10 |
+| **Timeline** | Filter to papers up to a given year, or animate adoption from 2015 to present |
 | **Search** | Filter by institution, author, country, or title |
 
 ## Repository structure
 
 ```
 fucci-network/
-├── index.html          Live site (auto-generated — do not edit directly)
-├── template.html       HTML/JS template with __DATA__ placeholder
-├── update_data.py      Script to regenerate index.html from new Scopus exports
+├── index.html          Live site (generated — never edit directly)
+├── template.html       Page design: Mort Lab shell + D3 network, with a __DATA__ placeholder
+├── update_data.py      Builds index.html from template.html + data
 ├── data/
-│   ├── fucci2a.csv     Scopus export — Mort et al. 2014 citing papers
-│   ├── arl13b.csv      Scopus export — Ford, Mort et al. 2018 citing papers
-│   ├── multistage.csv  Scopus export — Yates, Ford & Mort 2017 citing papers
-│   └── verification.csv  Manual mouse-use verification table (optional)
+│   ├── verification.csv  Manual mouse-use verification table (in the repo)
+│   ├── fucci2a.csv     Scopus export — Mort et al. 2014 citing papers     (not in the repo)
+│   ├── arl13b.csv      Scopus export — Ford, Mort et al. 2018 citing papers (not in the repo)
+│   └── multistage.csv  Scopus export — Yates, Ford & Mort 2017 citing papers (not in the repo)
 ├── README.md
 └── LICENSE
 ```
+
+## Changing the page design
+
+The page uses the same header, menu and footer as the [Mort Lab website](https://wp.lancs.ac.uk/mortlab/)
+(copied from the `mortlab-gallery` and `fluorofate-tutorial` repos). Edit `template.html`, then rebuild:
+
+```bash
+python update_data.py --rebuild
+```
+
+`--rebuild` re-applies the template to the data already inside `index.html`, so it needs neither the
+Scopus CSVs nor pandas. Commit both `template.html` and `index.html`.
 
 ## Updating the data
 
@@ -47,13 +58,15 @@ When new Scopus exports are available:
 
 1. Export citing papers for each source paper from [Scopus](https://www.scopus.com) as CSV (include all fields: Abstract, Funding Details, Author Keywords, Index Keywords)
 2. Save as `data/fucci2a.csv`, `data/arl13b.csv`, `data/multistage.csv`
-3. Run the update script:
+3. Run the update script (needs `pip install pandas`):
    ```bash
    python update_data.py
    ```
+   Check the summary says *Merged verification status for N papers* — if it doesn't, your manual
+   mouse-use classifications have not been applied.
 4. Commit and push:
    ```bash
-   git add index.html
+   git add index.html data/verification.csv
    git commit -m "Update citation data"
    git push
    ```
@@ -64,16 +77,20 @@ GitHub Pages will update automatically within a minute or two.
 
 The script automatically classifies funders, research fields, and author independence from the Scopus data. Mouse-use verification (confirmed / needs verification / unclassified) requires manual methods-section review and cannot be automated.
 
-To preserve verified classifications across updates, maintain `data/verification.csv` with columns:
+Verified classifications live in `data/verification.csv` and are merged into every rebuild. Add rows
+for new papers (or change statuses) there. Columns:
 
 | Column | Description |
 |---|---|
+| `source` | Which source paper it cites: `fucci2a`, `arl13b` or `markov` (multistage model) |
 | `doi` | Paper DOI |
-| `verification_status` | `confirmed_mouse_user`, `needs_verification`, or `unclassified` |
+| `verification_status` | `confirmed_mouse_user`, `needs_verification`, `not_assessed` or `unclassified` |
 | `verification_note` | Free text note |
 | `verification_category` | Application area (e.g. Cardiac, Kidney) |
+| `title` | For reference only — ignored by the script |
 
-The script will merge this into the new data automatically on DOI match.
+Rows match on `source` + `doi`, because a paper citing two source papers can have a different status
+under each. Papers with no row default to `unclassified`.
 
 ### What the script classifies automatically
 
